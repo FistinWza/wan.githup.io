@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workout</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/YOUR_KIT_CODE.js" crossorigin="anonymous"></script>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'Arial', sans-serif;
+        background-color: #f9f9f9;
+        color: #333;
+        line-height: 1.6;
+    }
+
+    .blog-section {
+        max-width: 800px;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+    }
+
+    .blog-title {
+        font-size: 36px;
+        margin-bottom: 20px;
+        color: #333;
+        text-align: center;
+    }
+
+    .blog-meta {
+        font-size: 14px;
+        color: #777;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .blog-content {
+        font-size: 18px;
+        color: #555;
+    }
+
+    .blog-content h2 {
+        font-size: 28px;
+        margin-top: 30px;
+        margin-bottom: 15px;
+        color: #333;
+    }
+
+    .blog-content p {
+        margin-bottom: 20px;
+    }
+
+    .blog-content ul {
+        margin-bottom: 20px;
+        padding-left: 20px;
+    }
+
+    .blog-content ul li {
+        margin-bottom: 10px;
+    }
+
+    .blog-image {
+        width: 100%;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+
+    .blog-quote {
+        background-color: #f4f4f4;
+        border-left: 5px solid #f39c12;
+        padding: 20px;
+        margin: 20px 0;
+        font-style: italic;
+        color: #555;
+    }
+
+    .blog-quote p {
+        margin: 0;
+    }
+
+    @media (max-width: 768px) {
+        .blog-section {
+            padding: 15px;
+        }
+
+        .blog-title {
+            font-size: 28px;
+        }
+
+        .blog-content {
+            font-size: 16px;
+        }
+
+        .blog-content h2 {
+            font-size: 24px;
+        }
+    }
+</style>
+<body>
+
+<header>
+    <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-scroll">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white" href="#">Workout</a>
+
+            <button class="navbar-toggler text-white" type="button" data-mdb-toggle="collapse"
+                data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link text-white" href="/index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="/Nutrition/index.html">Nutrition</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="/workout/index.html">Workouts</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="/Tips/index.html">Tips</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="/Recover/index.html">Recovery</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="/contact/index.html">Contact</a></li>
+                </ul>
+                
+                
+                <ul class="navbar-nav d-flex flex-row">
+                    <li class="nav-item me-3"><a class="nav-link text-white" href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                    <li class="nav-item me-3"><a class="nav-link text-white" href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li class="nav-item me-3"><a class="nav-link text-white" href="#"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section>
+        <div id="headerCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://images.ctfassets.net/8urtyqugdt2l/fIOvOyiWNuyVnlhs7LnFt/9d2b2df51fdce86e93c0d1b0d28afc1e/desktop-cbum-back-workout.jpg" class="d-block w-100" alt="Slide 1">
+                    <div class="carousel-caption d-flex flex-column justify-content-center align-items-center">
+                        <h1 class="text-white fw-bold">Welcome</h1>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://generationiron.com/wp-content/uploads/2021/08/header-22.jpg" class="d-block w-100" alt="Slide 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://hhsclarionnews.com/wp-content/uploads/2023/10/maxresdefault.jpg" class="d-block w-100" alt="Slide 3">
+                </div>
+            </div>
+        </div>
+        
+    </section>
+</header>
+
+<section class="blog-section">
+    <h1 class="blog-title">โภชนาการเพื่อสุขภาพที่ดี</h1>
+    <div class="blog-meta">
+        เขียนโดย: ผู้เชี่ยวชาญโภชนาการ | วันที่: 10 ตุลาคม 2566
+    </div>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7923F60jZ5hHOpD46VDsYh7E2RmdyQvFnEA&s" alt="โภชนาการเพื่อสุขภาพ" class="blog-image">
+    <div class="blog-content">
+        <h2>โภชนาการคืออะไร?</h2>
+        <p>
+            โภชนาการคือการศึกษาความสัมพันธ์ระหว่างอาหารและสุขภาพของมนุษย์ การรับประทานอาหารที่เหมาะสมช่วยให้ร่างกายได้รับสารอาหารที่จำเป็นต่อการทำงานของอวัยวะต่างๆ และช่วยป้องกันโรคต่างๆ เช่น โรคหัวใจ โรคเบาหวาน และโรคอ้วน
+        </p>
+
+        <h2>สารอาหารที่จำเป็น</h2>
+        <p>
+            สารอาหารที่จำเป็นสำหรับร่างกายมีหลายประเภท ได้แก่:
+        </p>
+        <ul>
+            <li><strong>โปรตีน:</strong> ช่วยในการสร้างและซ่อมแซมเนื้อเยื่อ</li>
+            <li><strong>คาร์โบไฮเดรต:</strong> ให้พลังงานแก่ร่างกาย</li>
+            <li><strong>ไขมัน:</strong> ช่วยในการดูดซึมวิตามินและให้พลังงาน</li>
+            <li><strong>วิตามินและแร่ธาตุ:</strong> ช่วยในการทำงานของระบบต่างๆ ในร่างกาย</li>
+        </ul>
+
+        <div class="blog-quote">
+            <p>
+                "การรับประทานอาหารที่สมดุลคือกุญแจสำคัญสู่สุขภาพที่ดี"
+            </p>
+        </div>
+
+        <h2>เคล็ดลับการรับประทานอาหารเพื่อสุขภาพ</h2>
+        <p>
+            การรับประทานอาหารเพื่อสุขภาพไม่ใช่เรื่องยาก เพียงปฏิบัติตามเคล็ดลับเหล่านี้:
+        </p>
+        <ul>
+            <li>รับประทานผักและผลไม้ให้หลากหลาย</li>
+            <li>ลดการบริโภคน้ำตาลและเกลือ</li>
+            <li>ดื่มน้ำให้เพียงพอ</li>
+            <li>หลีกเลี่ยงอาหารแปรรูป</li>
+        </ul>
+
+        <h2>สรุป</h2>
+        <p>
+            การดูแลโภชนาการเป็นสิ่งสำคัญที่ช่วยให้ร่างกายแข็งแรงและมีสุขภาพดี เริ่มต้นวันนี้ด้วยการเลือกรับประทานอาหารที่มีประโยชน์และสมดุล เพื่อสุขภาพที่ดีในระยะยาว
+        </p>
+    </div>
+</section>
+<footer>
+    <address>
+       <a href="/us/index.html">kittapass&premkitti</a><br>
+        buriram <br>
+        Thailand
+    </address>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.js"></script>
+<script src="/script.js"></script>
+
+</body>
+</html>

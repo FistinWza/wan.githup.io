@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workout</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/YOUR_KIT_CODE.js" crossorigin="anonymous"></script>
+</head>
+<style>
+    /* Reset CSS */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'Arial', sans-serif;
+        background-color: #f9f9f9;
+        color: #333;
+        line-height: 1.6;
+    }
+
+    .blog-section {
+        max-width: 800px;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+    }
+
+    .blog-title {
+        font-size: 36px;
+        margin-bottom: 20px;
+        color: #333;
+        text-align: center;
+    }
+
+    .blog-meta {
+        font-size: 14px;
+        color: #777;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .blog-content {
+        font-size: 18px;
+        color: #555;
+    }
+
+    .blog-content h2 {
+        font-size: 28px;
+        margin-top: 30px;
+        margin-bottom: 15px;
+        color: #333;
+    }
+
+    .blog-content p {
+        margin-bottom: 20px;
+    }
+
+    .blog-content ul {
+        margin-bottom: 20px;
+        padding-left: 20px;
+    }
+
+    .blog-content ul li {
+        margin-bottom: 10px;
+    }
+
+    .blog-image {
+        width: 100%;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+
+    .blog-quote {
+        background-color: #f4f4f4;
+        border-left: 5px solid #f39c12;
+        padding: 20px;
+        margin: 20px 0;
+        font-style: italic;
+        color: #555;
+    }
+
+    .blog-quote p {
+        margin: 0;
+    }
+
+    @media (max-width: 768px) {
+        .blog-section {
+            padding: 15px;
+        }
+
+        .blog-title {
+            font-size: 28px;
+        }
+
+        .blog-content {
+            font-size: 16px;
+        }
+
+        .blog-content h2 {
+            font-size: 24px;
+        }
+    }
+</style>
+<body>
+
+<header>
+    <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-scroll">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white" href="#">Workout</a>
+
+            <button class="navbar-toggler text-white" type="button" data-mdb-toggle="collapse"
+                data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link text-white" href="/index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="/Nutrition/index.html">Nutrition</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="/workout/index.html">Workouts</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="/Tips/index.html">Tips</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="/Recover/index.html">Recovery</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="/contact/index.html">Contact</a></li>
+                </ul>
+                
+                
+                <ul class="navbar-nav d-flex flex-row">
+                    <li class="nav-item me-3"><a class="nav-link text-white" href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                    <li class="nav-item me-3"><a class="nav-link text-white" href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li class="nav-item me-3"><a class="nav-link text-white" href="#"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section>
+        <div id="headerCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://images.ctfassets.net/8urtyqugdt2l/fIOvOyiWNuyVnlhs7LnFt/9d2b2df51fdce86e93c0d1b0d28afc1e/desktop-cbum-back-workout.jpg" class="d-block w-100" alt="Slide 1">
+                    <div class="carousel-caption d-flex flex-column justify-content-center align-items-center">
+                        <h1 class="text-white fw-bold">Welcome</h1>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://generationiron.com/wp-content/uploads/2021/08/header-22.jpg" class="d-block w-100" alt="Slide 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://hhsclarionnews.com/wp-content/uploads/2023/10/maxresdefault.jpg" class="d-block w-100" alt="Slide 3">
+                </div>
+            </div>
+        </div>
+        
+    </section>
+</header>
+    <section class="blog-section">
+        <h1 class="blog-title">เคล็ดลับการเลือกแผนการออกกำลังกาย</h1>
+        <div class="blog-meta">
+            เขียนโดย: ผู้เชี่ยวชาญฟิตเนส | วันที่: 10 ตุลาคม 2566
+        </div>
+        <div class="blog-content">
+            <h2>ทำไมการเลือกแผนการออกกำลังกายที่เหมาะสมจึงสำคัญ?</h2>
+            <p>
+                การเลือกแผนการออกกำลังกายที่เหมาะสมเป็นสิ่งสำคัญสำหรับการบรรลุเป้าหมายของคุณ คนที่ไม่เลือกแผนที่เหมาะสมมักจะล้มเหลวในการบรรลุเป้าหมาย นี่คือเคล็ดลับ 8 ข้อสำหรับการเลือกแผนการออกกำลังกายที่เหมาะกับคุณ
+            </p>
+
+            <h2>1. เลือกแผนการออกกำลังกายที่เหมาะกับระดับประสบการณ์ของคุณ</h2>
+            <p>
+                ฟังดูง่ายใช่ไหม? แต่หลายคนที่เพิ่งเริ่มต้นออกกำลังกายมักเลือกแผนที่ออกแบบสำหรับผู้ที่มีประสบการณ์หรือนักเพาะกายมืออาชีพ คุณจะเห็นผลลัพธ์ได้เร็วกว่าถ้าเลือกแผนที่เหมาะกับระดับประสบการณ์ของคุณ หากคุณเพิ่งเริ่มต้น ให้หาแผนการออกกำลังกายสำหรับผู้เริ่มต้น
+            </p>
+
+            <h2>2. กำหนดเป้าหมายให้ชัดเจน</h2>
+            <p>
+                เมื่อเราสำรวจผู้อ่านของเรา เป้าหมายหลักที่ได้รับความนิยมสูงสุดคือ "สร้างกล้ามเนื้อและลดไขมัน" ซึ่งเป็นเรื่องที่ยากมากที่จะทำได้พร้อมกัน หากคุณไม่ใช่ผู้เริ่มต้นหรือใช้สเตียรอยด์ ลองคิดให้ดีก่อนเลือกแผนการออกกำลังกาย คุณต้องการสร้างกล้ามเนื้อหรือลดไขมันก่อน? คุณต้องการเพิ่มประสิทธิภาพในการเล่นกีฬาหรือไม่? คุณต้องการเพิ่มความอดทนหรือไม่? ยิ่งคุณชัดเจนกับเป้าหมายมากเท่าไหร่ การหาแผนที่เหมาะสมก็จะง่ายขึ้น และผลลัพธ์ก็จะดีขึ้น
+            </p>
+
+            <h2>3. คำนึงถึงไลฟ์สไตล์ของคุณ</h2>
+            <p>
+                อย่าพยายามบีบแผนการออกกำลังกาย 5-6 วันต่อสัปดาห์เข้าไปในชีวิตที่ยุ่งอยู่แล้ว คุณอาจจะข้ามวัน ไม่ฟื้นตัวอย่างเหมาะสม และสุดท้ายก็ล้มเหลว คุณควรเลือกแผนการออกกำลังกายที่ใช้เวลาเพียง 3 วันต่อสัปดาห์แทน คิดให้ดีว่าคุณสามารถใช้เวลาในการออกกำลังกายได้จริงๆ เท่าไหร่
+            </p>
+
+            <h2>4. เลือกแผนการออกกำลังกายที่คุณสามารถทำได้จนครบระยะเวลา</h2>
+            <p>
+                แผนการออกกำลังกายส่วนใหญ่ออกแบบมาให้ทำเป็นระยะเวลา เช่น 8-10 สัปดาห์ คุณจะไม่ได้รับผลลัพธ์ที่ดีที่สุดหากทำเพียง 4-5 สัปดาห์ ควรระวังเรื่องนี้ในแผนการออกกำลังกายแบบแบ่งช่วง (Periodization) เพราะปริมาณงานมักจะเพิ่มขึ้นเมื่อคุณทำไปเรื่อยๆ
+            </p>
+
+            <h2>5. รู้จักประเภทร่างกายของคุณ</h2>
+            <p>
+                ผู้เริ่มต้นส่วนใหญ่ไม่เข้าใจว่าประเภทร่างกายส่งผลต่อผลลัพธ์อย่างไร ตัวอย่างเช่น ผู้ชายสูง 6'2" ที่มีรูปร่างผอมมักจะได้ผลลัพธ์ที่แตกต่างจากผู้ชายสูง 5'5" ที่มีรูปร่างใหญ่ ดังนั้น คุณควรเข้าใจประเภทร่างกายของคุณและเลือกแผนการออกกำลังกายที่เหมาะสมเพื่อให้ได้ผลลัพธ์สูงสุด
+            </p>
+
+            <h2>6. มีความคาดหวังที่สมเหตุสมผล</h2>
+            <p>
+                คุณอาจเคยเห็นภาพบนปกนิตยสารหรือนักฟิตเนสบนโซเชียลมีเดีย อย่าคาดหวังผลลัพธ์แบบนั้นภายใน 3 เดือนแรกของการฝึก หากคุณตั้งความคาดหวังสูงเกินไป คุณอาจสูญเสียแรงจูงใจและล้มเลิก คนเหล่านี้มักฝึกมานานกว่า 10 ปีและทำเป็นงานประจำ ดังนั้น ตั้งเป้าหมายเล็กๆ ในการพัฒนารูปร่างของคุณและอย่าเปรียบเทียบกับคนอื่น
+            </p>
+
+            <h2>7. เลือกแผนที่ทำได้กับคู่หู</h2>
+            <p>
+                แรงจูงใจเป็นสิ่งสำคัญสำหรับผลลัพธ์ในระยะยาว การฝึกกับคู่หูเป็นเรื่องสนุกและช่วยให้คุณมีแรงจูงใจมากขึ้น เลือกคู่หูที่เก่งกว่าคุณเล็กน้อย เช่น หากเป้าหมายของคุณคือการลดไขมัน ให้เลือกคู่หูที่ผอมกว่า หากเป้าหมายของคุณคือการสร้างกล้ามเนื้อ ให้เลือกคู่หูที่ใหญ่และแข็งแรงกว่า สิ่งนี้จะช่วยกระตุ้นให้คุณแข่งขันกับพวกเขา
+            </p>
+
+            <h2>8. อ่านรีวิวก่อนลอง</h2>
+            <p>
+                ฐานข้อมูลแผนการออกกำลังกายของเรามีความคิดเห็นมากกว่า 25,000 รายการ บ่อยครั้งที่ผู้คนพูดถึงผลลัพธ์ที่พวกเขาได้รับหลังจากใช้แผนการออกกำลังกาย อ่านความคิดเห็นเหล่านี้และดูว่าผู้เขียนมีความคล้ายคลึงกับเป้าหมายของคุณหรือไม่
+            </p>
+
+            <div class="blog-quote">
+                <p>
+                    "โภชนาการสำคัญกว่าแผนการออกกำลังกาย คุณอาจมีแผนการออกกำลังกายที่ดีที่สุดในโลก แต่ถ้าคุณไม่เติมเชื้อเพลิงที่เหมาะสมให้กับร่างกาย คุณก็จะไม่ประสบความสำเร็จ"
+                </p>
+            </div>
+
+            <h2>สรุป</h2>
+            <p>
+                การเลือกแผนการออกกำลังกายที่เหมาะสมเป็นสิ่งสำคัญสำหรับการบรรลุเป้าหมายของคุณ ใช้เคล็ดลับเหล่านี้เพื่อเลือกแผนที่เหมาะกับคุณ และอย่าลืมว่าการรับประทานอาหารที่เหมาะสมก็สำคัญไม่แพ้กัน
+            </p>
+        </div>
+    </section>
+<div class="diver"></div>
+</section>
+<footer>
+    <address>
+       <a href="/us/index.html">kittapass&premkitti</a><br>
+        buriram <br>
+        Thailand
+    </address>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.js"></script>
+<script src="/script.js"></script>
+
+</body>
+</html>
